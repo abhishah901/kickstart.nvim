@@ -73,7 +73,11 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 ```sh
 git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
+  ## Note: While working in fish shell, the above command gives error. Just use this instead:
 
+```sh
+git clone https://github.com/abhishah901/kickstart.nvim.git $HOME/.config/nvim
+```
 </details>
 
 <details><summary> Windows </summary>
